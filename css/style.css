@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url(https://sociologicamente.it/wp-content/uploads/2022/10/sport-media-scienze-sociali-sociologia.jpg);
+  color: #f4f4f4;
+  text-align: left;
+  
+}
+
+nav {
+  background-color: #ff5050;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 4px 6px#f4f4f4 ;
+}
+
+nav a {
+  color: #ffffff;
+  margin: 0 20px;
+  text-decoration: none;
+  font-size: 18px;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+nav a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #a0040b;
+  transition: width 0.3s;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+}
+
+nav a:hover {
+  color: #ffffff;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+section {
+  background-color: rgba(96, 119, 99, 0.1);
+  margin: 30px auto;
+  padding: 30px;
+  width: 80%;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.tabel-sport {
+  margin: 30px auto;
+  width: 80%;
+  border-collapse: collapse;
+  background-color: #fff;
+  color: #086415;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+
+}
+
+.tabel-sport th,
+.tabel-sport td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #9e0707;
+  text-align: left;
+}
